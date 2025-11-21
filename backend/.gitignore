@@ -1,0 +1,15 @@
+# dependencies
+/node_modules
+
+# environment
+.env
+
+# logs
+npm-debug.log*
+
+# local EHR data
+/local_ehr/*.ehr
+/local_ehr/*.json
+
+# testing
+/coverage

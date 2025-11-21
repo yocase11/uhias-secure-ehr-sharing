@@ -1,0 +1,16 @@
+{
+  "name": "healthcare-backend",
+  "version": "1.0.0",
+  "description": "Backend for local EHR project",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.3.1",
+    "@supabase/supabase-js": "^2.27.0",
+    "uuid": "^9.0.0"
+  }
+}

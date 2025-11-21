@@ -1,0 +1,3 @@
+PatientID,Name,Age,Gender,Country,Diagnosis,ReportType,DoctorOpinion,Hospital,RecordID,FileCID,FileHash,Uploader,ConsentGiven,AccessRequests,Latency(ms),TxCost(ETH)
+1,John Doe,34,M,USA,Diabetes,Lab,Stable,General Hospital,rec001,cid001,hash001,0xabc,true,2,120,0.001
+2,Jane Smith,29,F,UK,Asthma,Imaging,Improved,City Clinic,rec002,cid002,hash002,0xdef,true,1,110,0.0012

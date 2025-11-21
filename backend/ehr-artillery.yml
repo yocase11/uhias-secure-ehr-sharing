@@ -1,0 +1,9 @@
+config:
+  target: "http://localhost:3001"
+  phases:
+    - duration: 60
+      arrivalRate: 10
+scenarios:
+  - flow:
+      - get:
+          url: "/ehr/e8a9410e-f27f-445e-895c-e81258b71d19"

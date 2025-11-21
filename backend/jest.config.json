@@ -1,0 +1,13 @@
+{
+  "testEnvironment": "node",
+  "testTimeout": 10000,
+  "verbose": true,
+  "collectCoverage": true,
+  "coverageDirectory": "coverage",
+  "coverageReporters": ["text", "lcov"],
+  "collectCoverageFrom": [
+    "**/*.{js,jsx}",
+    "!**/node_modules/**",
+    "!**/coverage/**"
+  ]
+}
